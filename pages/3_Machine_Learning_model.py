@@ -19,7 +19,7 @@ def load_model():
 model = load_model()
 
 # 📂 Define CSV file path
-csv_path = "Dataset/train.csv"  
+csv_path = "dataset/train.csv"  
 
 # ✅ Check if the file exists before loading
 if not os.path.exists(csv_path):
